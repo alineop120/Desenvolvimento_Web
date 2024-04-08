@@ -1,22 +1,22 @@
-	#CSS (Cassading Styles Sheets)
+		# CSS (Cassading Styles Sheets)
 * É uma linguagem de marcação responsável pela parte visual da página.
 Ex.: Como estilos, layouts dos elementos do site, fontes, cores e posicionamento.
 * Também é possível adicionar efeitos ou animações, como ao colocar o cursor sobre um botão, o mesmo alterar a cor.
 
-	##COMO ADICIONAR NA PÁGINA:
-##CSS Externo
+	## COMO ADICIONAR NA PÁGINA:
+	## CSS Externo
 * Deve-se adicionar o link de um arquino '.css' (esse é o método mais utilizado e mais eficiente).
 * Para 'linkar' deve colocar o seguinte código dentro da tag <head>.
 Ex.: <link rel="stylesheets" type="twxt/css" href="estilo.css"/>
 
-###VANTAGENS:
+### VANTAGENS:
 * Único arquivo para várias páginas;
 * A págiuna HTML vai ficar mais limpa e organizada.
-###DESVANTAGENS:
+### DESVANTAGENS:
 * Enquanto o CSS não for carregado completamente, a página pode não carregar corretamente.
 * 'Linkar' vários arquivos CSS pode deixar a página lenta para carregar.
 
-##CSS Interno
+	## CSS Interno
 * É adicionar a tag <style> dentro da tag <head>, após a tag <title>.
 * Esse método é utilizado para interligar apenas a página em que se encontra.
 <head>
@@ -28,7 +28,7 @@ Ex.: <link rel="stylesheets" type="twxt/css" href="estilo.css"/>
    <style/>
 </head>
 
-###VANTAGENS:
+### VANTAGENS:
 * Não precisa carregar vários arquivos;
 * Qaundo é uma página pequena e simples, fica organizado.
 ###DESVANTAGENS:
