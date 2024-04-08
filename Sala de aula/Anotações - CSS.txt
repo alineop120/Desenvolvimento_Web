@@ -19,6 +19,7 @@ Ex.: <link rel="stylesheets" type="twxt/css" href="estilo.css"/>
 	## CSS Interno
 * É adicionar a tag <style> dentro da tag <head>, após a tag <title>.
 * Esse método é utilizado para interligar apenas a página em que se encontra.
+Ex.:
 <head>
    <title>addcss</title>
    <style type="text/css">
@@ -31,6 +32,22 @@ Ex.: <link rel="stylesheets" type="twxt/css" href="estilo.css"/>
 ### VANTAGENS:
 * Não precisa carregar vários arquivos;
 * Qaundo é uma página pequena e simples, fica organizado.
-###DESVANTAGENS:
+### DESVANTAGENS:
 * Pode deixar o arquivo HTML com muitas linhas de código e aumentar a complexidade no entendimento.
 
+	## CSS Inline
+* É utilizado para dar estilo a um elemento da página.
+* Será necessário adicionar o atributo 'style' na tag que precise de estilização.
+* Utilizar somente ess método, pode tornar difícil a manutenção.
+Ex.: 
+<body style="background-color: black">
+   <h1 style="color: white; padding: 30px" Aula </h1>
+   <p style="color: white;" Texto Aqui </p>
+</body>
+
+### VANTAGENS:
+* Poderá ser usado para alterar apenas um elemento;
+* Não precisa carregar arquivo para alteração simples.
+### DESVANTAGENS:
+* Adicionar regras para cada elemento pode precisar de tempo.
+* Utilizar a mesma regra para vários elementos vai deixar o arquivo extenso.
