@@ -1,30 +1,48 @@
-	CSS (Cassading Styles Sheets)
--> … uma linguagem de marcaÁ„o respons·vel pela parte visual da p·gina.
+		# CSS (Cassading Styles Sheets)
+* √â uma linguagem de marca√ß√£o respons√°vel pela parte visual da p√°gina.
 Ex.: Como estilos, layouts dos elementos do site, fontes, cores e posicionamento.
--> TambÈm È possÌvel adicionar efeitos ou animaÁıes, como ao colocar o cursor sobre um bot„o, o mesmo alterar a cor.
+* Tamb√©m √© poss√≠vel adicionar efeitos ou anima√ß√µes, como ao colocar o cursor sobre um bot√£o, o mesmo alterar a cor.
 
-	COMO ADICIONAR NA P¡GINA:
-CSS Externo
--> Deve-se adicionar o link de um arquino '.css' (esse È o mÈtodo mais utilizado e mais eficiente).
--> Para 'linkar' deve colocar o seguinte cÛdigo dentro da tag <head>.
+	## COMO ADICIONAR NA P√ÅGINA:
+	## CSS Externo
+* Deve-se adicionar o link de um arquino '.css' (esse √© o m√©todo mais utilizado e mais eficiente).
+* Para 'linkar' deve colocar o seguinte c√≥digo dentro da tag <head>.
 Ex.: <link rel="stylesheets" type="twxt/css" href="estilo.css"/>
+### VANTAGENS:
+* √önico arquivo para v√°rias p√°ginas;
+* A p√°giuna HTML vai ficar mais limpa e organizada.
+### DESVANTAGENS:
+* Enquanto o CSS n√£o for carregado completamente, a p√°gina pode n√£o carregar corretamente.
+* 'Linkar' v√°rios arquivos CSS pode deixar a p√°gina lenta para carregar.
 
-VANTAGENS:
--> ⁄nico arquivo para v·rias p·ginas;
--> A p·giuna HTML vai ficar mais limpa e organizada.
-DESVANTAGENS:
--> Enquanto o CSS n„o for carregado completamente, a p·gina pode n„o carregar corretamente.
--> 'linkar' v·rios arquivos CSS pode deixar a p·gina lenta para carregar.
-
-CSS Interno
--> … adicionar a tag <style> dentro da tag <head>, apÛs a tag <title>.
--> Esse mÈtodo È utilizado para interligar apenas a p·gina em que se encontra.
+	## CSS Interno
+* √â adicionar a tag <style> dentro da tag <head>, ap√≥s a tag <title>.
+* Esse m√©todo √© utilizado para interligar apenas a p√°gina em que se encontra.
+Ex.:
 <head>
    <title>addcss</title>
    <style type="text/css">
-      body{
-         background-color: green;
-      }   
    <style/>
 </head>
+### VANTAGENS:
+* N√£o precisa carregar v√°rios arquivos;
+* Qaundo √© uma p√°gina pequena e simples, fica organizado.
+### DESVANTAGENS:
+* Pode deixar o arquivo HTML com muitas linhas de c√≥digo e aumentar a complexidade no entendimento.
 
+	## CSS Inline
+* √â utilizado para dar estilo a um elemento da p√°gina.
+* Ser√° necess√°rio adicionar o atributo 'style' na tag que precise de estiliza√ß√£o.
+* Utilizar somente ess m√©todo, pode tornar dif√≠cil a manuten√ß√£o.
+Ex.: 
+<body style="background-color: black">
+   <h1 style="color: white; padding: 30px" Aula </h1>
+   <p style="color: white;" Texto Aqui </p>
+</body>
+
+### VANTAGENS:
+* Poder√° ser usado para alterar apenas um elemento;
+* N√£o precisa carregar arquivo para altera√ß√£o simples.
+### DESVANTAGENS:
+* Adicionar regras para cada elemento pode precisar de tempo.
+* Utilizar a mesma regra para v√°rios elementos vai deixar o arquivo extenso.
