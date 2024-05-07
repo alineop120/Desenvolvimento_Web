@@ -1,0 +1,48 @@
+		# CSS (Cassading Styles Sheets)
+* É uma linguagem de marcação responsável pela parte visual da página.
+Ex.: Como estilos, layouts dos elementos do site, fontes, cores e posicionamento.
+* Também é possível adicionar efeitos ou animações, como ao colocar o cursor sobre um botão, o mesmo alterar a cor.
+
+	## COMO ADICIONAR NA PÁGINA:
+	## CSS Externo
+* Deve-se adicionar o link de um arquino '.css' (esse é o método mais utilizado e mais eficiente).
+* Para 'linkar' deve colocar o seguinte código dentro da tag <head>.
+Ex.: <link rel="stylesheets" type="twxt/css" href="estilo.css"/>
+### VANTAGENS:
+* Único arquivo para várias páginas;
+* A págiuna HTML vai ficar mais limpa e organizada.
+### DESVANTAGENS:
+* Enquanto o CSS não for carregado completamente, a página pode não carregar corretamente.
+* 'Linkar' vários arquivos CSS pode deixar a página lenta para carregar.
+
+	## CSS Interno
+* É adicionar a tag <style> dentro da tag <head>, após a tag <title>.
+* Esse método é utilizado para interligar apenas a página em que se encontra.
+Ex.:
+<head>
+   <title>addcss</title>
+   <style type="text/css">
+   <style/>
+</head>
+### VANTAGENS:
+* Não precisa carregar vários arquivos;
+* Qaundo é uma página pequena e simples, fica organizado.
+### DESVANTAGENS:
+* Pode deixar o arquivo HTML com muitas linhas de código e aumentar a complexidade no entendimento.
+
+	## CSS Inline
+* É utilizado para dar estilo a um elemento da página.
+* Será necessário adicionar o atributo 'style' na tag que precise de estilização.
+* Utilizar somente ess método, pode tornar difícil a manutenção.
+Ex.: 
+<body style="background-color: black">
+   <h1 style="color: white; padding: 30px" Aula </h1>
+   <p style="color: white;" Texto Aqui </p>
+</body>
+
+### VANTAGENS:
+* Poderá ser usado para alterar apenas um elemento;
+* Não precisa carregar arquivo para alteração simples.
+### DESVANTAGENS:
+* Adicionar regras para cada elemento pode precisar de tempo.
+* Utilizar a mesma regra para vários elementos vai deixar o arquivo extenso.
