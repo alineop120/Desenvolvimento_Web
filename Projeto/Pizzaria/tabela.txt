@@ -1,0 +1,55 @@
+                                            HTML
+<!-- Cardápio -->
+    <div class="cardapio">
+        <h2>Cardápio</h2>
+        <table class="tabela-cardapio">
+            <thead>
+                <tr>
+                    <th>Imagem</th>
+                    <th>Nome</th>
+                    <th>Ingredientes</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="midia/calabresa.jpg" alt="Pizza de Calabresa"></td>
+                    <td>Pizza de Calabresa</td>
+                    <td>Molho de tomate, calabresa, queijo mussarela, cebola, pimentão e orégano.</td>
+                    <td>R$ 25,00</td>
+                </tr>
+                <tr>
+                    <td><img src="midia/frango.jpg" alt="Pizza de Frango com Catupiry"></td>
+                    <td>Pizza de Frango com Catupiry</td>
+                    <td>Molho de tomate, frango desfiado, catupiry.</td>
+                    <td>R$ 27,00</td>
+                </tr>
+                <!-- Adicione mais linhas conforme necessário -->
+            </tbody>
+        </table>
+    </div>
+
+                                            CSS
+/* Estilos para a tabela do cardápio */
+.tabela-cardapio {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaçamento entre as células */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+.tabela-cardapio th,
+.tabela-cardapio td {
+    padding: 10px; /* Espaçamento interno das células */
+    border: 1px solid #ccc; /* Borda de todas as células */
+    text-align: left; /* Alinhamento do texto */
+}
+
+.tabela-cardapio th {
+    background-color: #f0f0f0; /* Cor de fundo para os cabeçalhos */
+}
+
+.tabela-cardapio img {
+    max-width: 100px; /* Largura máxima para as imagens */
+    display: block; /* Impede que as imagens afetem o layout das células */
+    margin: 0 auto; /* Centraliza as imagens horizontalmente */
+}
