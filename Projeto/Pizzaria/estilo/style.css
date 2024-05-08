@@ -1,0 +1,41 @@
+/* Exemplo de estilos para as classes */
+.cabecalho {
+    /* Adicionando imagem como plano de fundo */
+    background-image: url('/midia/bordaPizza.jpg');
+    background-size: cover; /* Para cobrir todo o cabeçalho */
+    background-position: center bottom; /* Para centralizar a imagem */
+    color: #fff; /* Cor do texto */
+    padding: 39px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento do texto */
+}
+
+.menu-navegacao {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-navegacao ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-navegacao ul li {
+    display: inline;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.menu-navegacao ul li:last-child {
+    margin-right: 0;
+}
+
+.menu-navegacao ul li a {
+    text-decoration: none;
+    color: #fff; /* Cor dos links */
+}
+
+.menu-navegacao ul li a:hover {
+    color: #ff0; /* Cor dos links quando hover (passar o mouse por cima) */
+}
