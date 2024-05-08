@@ -61,7 +61,9 @@ hr {
 
 /* Estilos para os itens do cardápio */
 .item-cardapio {
-    display: flex; /* Usando flexbox para layout */
+    width: 300px;
+    height: 100px;
+    display: inline-block; /* Usando flexbox para layout */
     margin-bottom: 20px; /* Espaçamento inferior entre os itens */
 }
 
