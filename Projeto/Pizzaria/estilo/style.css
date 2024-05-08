@@ -1,3 +1,6 @@
+body {
+    font-family: Arial, sans-serif; /* Fonte para o cabeçalho */
+}
 /* Exemplo de estilos para as classes */
 .cabecalho {
     /* Adicionando imagem como plano de fundo */
@@ -37,5 +40,68 @@
 }
 
 .menu-navegacao ul li a:hover {
-    color: #ff0; /* Cor dos links quando hover (passar o mouse por cima) */
+    color: #ff494b; /* Cor dos links quando hover (passar o mouse por cima) */
+}
+
+/* Estilos para o cardápio */
+.cardapio {
+    background-color: #f0f0f0; /* Cor de fundo do cardápio */
+    padding: 20px; /* Espaçamento interno */
+    font-family: Arial, sans-serif; /* Fonte para o cardápio */
+}
+
+/* Estilos para a linha horizontal */
+hr {
+    border: 0; /* Remove a borda padrão */
+    height: 2px; /* Define a altura da linha */
+    background-color: #333; /* Cor da linha */
+    margin-top: 20px; /* Espaçamento superior */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilos para os itens do cardápio */
+.item-cardapio {
+    display: flex; /* Usando flexbox para layout */
+    margin-bottom: 20px; /* Espaçamento inferior entre os itens */
+}
+
+.item-cardapio img {
+    max-width: 150px; /* Largura máxima para a imagem */
+    margin-right: 20px; /* Espaçamento à direita da imagem */
+    border-radius: 20px; /* Adicionando borda arredondada */
+}
+
+.item-cardapio-info {
+    flex: 1; /* Ocupa o espaço restante */
+}
+
+.item-cardapio-info h3 {
+    margin-top: 0; /* Remove o espaço superior do título */
+}
+
+.item-cardapio-info h4 {
+    display: flex;
+    margin-top: 0; /* Remove o espaço superior do título dos ingredientes */
+    margin-bottom: 5px; /* Espaçamento inferior entre o título dos ingredientes e a lista de ingredientes */
+}
+
+.item-cardapio-info p {
+    margin-top: 5px; /* Espaçamento entre o título e os ingredientes */
+    margin-bottom: 0; /* Remove o espaço inferior dos ingredientes */
+}
+
+/* Estilos para a seção de promoções */
+.promocoes {
+    background-color: #ffd700; /* Cor de fundo das promoções */
+    padding: 20px; /* Espaçamento interno */
+    font-family: Arial, sans-serif; /* Fonte para as promoções */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    font-family: Arial, sans-serif; /* Fonte para o texto do rodapé */
 }
