@@ -1,59 +1,61 @@
+/* Estilos gerais para o corpo do documento */
 body {
-    font-family: Arial, sans-serif; /* Fonte para o cabeçalho */
+    font-family: Arial, sans-serif; /* Fonte padrão para todo o documento */
 }
-/* Exemplo de estilos para as classes */
+
+/* Estilos para o cabeçalho */
 .cabecalho {
-    /* Adicionando imagem como plano de fundo */
-    background-image: url('/midia/bordaPizza.jpg');
-    background-size: cover; /* Para cobrir todo o cabeçalho */
-    background-position: center bottom; /* Para centralizar a imagem */
+    background-image: url('/midia/bordaPizza.jpg'); /* Imagem de fundo */
+    background-size: cover; /* Cobrir todo o cabeçalho */
+    background-position: center bottom; /* Posição da imagem */
     color: #fff; /* Cor do texto */
     padding: 39px; /* Espaçamento interno */
     text-align: left; /* Alinhamento do texto */
 }
 
+/* Estilos para a navegação do menu */
 .menu-navegacao {
-    background-color: #333;
-    padding: 10px;
-    text-align: center;
+    background-color: #333; /* Cor de fundo */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
 }
 
 .menu-navegacao ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style-type: none; /* Remover marcadores de lista */
+    margin: 0; /* Remover margem */
+    padding: 0; /* Remover preenchimento */
 }
 
 .menu-navegacao ul li {
-    display: inline;
-    margin-right: 20px;
-    color: #fff;
+    display: inline; /* Exibir itens em linha */
+    margin-right: 20px; /* Margem à direita entre itens */
+    color: #fff; /* Cor do texto */
 }
 
 .menu-navegacao ul li:last-child {
-    margin-right: 0;
+    margin-right: 0; /* Remover margem à direita do último item */
 }
 
 .menu-navegacao ul li a {
-    text-decoration: none;
-    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remover decoração de link */
+    color: #fff; /* Cor do link */
 }
 
 .menu-navegacao ul li a:hover {
-    color: #ff494b; /* Cor dos links quando hover (passar o mouse por cima) */
+    color: #ff494b; /* Cor do link quando o mouse passa por cima */
 }
 
 /* Estilos para o cardápio */
 .cardapio {
-    background-color: #f0f0f0; /* Cor de fundo do cardápio */
+    background-color: #f0f0f0; /* Cor de fundo */
     padding: 20px; /* Espaçamento interno */
-    font-family: Arial, sans-serif; /* Fonte para o cardápio */
+    font-family: Arial, sans-serif; /* Fonte */
 }
 
 /* Estilos para a linha horizontal */
 hr {
-    border: 0; /* Remove a borda padrão */
-    height: 2px; /* Define a altura da linha */
+    border: 0; /* Remover borda */
+    height: 2px; /* Altura da linha */
     background-color: #333; /* Cor da linha */
     margin-top: 20px; /* Espaçamento superior */
     margin-bottom: 20px; /* Espaçamento inferior */
@@ -61,49 +63,46 @@ hr {
 
 /* Estilos para os itens do cardápio */
 .item-cardapio {
-    width: 300px;
-    height: 100px;
-    display: inline-block; /* Usando flexbox para layout */
-    margin-bottom: 20px; /* Espaçamento inferior entre os itens */
+    display: inline-block; /* Exibir como bloco em linha */
+    width: calc(50% - 100px); /* Largura dos blocos */
+    border: 1px solid #ccc; /* Borda */
+    padding: 20px; /* Espaçamento interno */
+    margin: 10px; /* Margem entre os itens */
+    background-color: #f9f9f9; /* Cor de fundo */
 }
 
 .item-cardapio img {
-    max-width: 150px; /* Largura máxima para a imagem */
-    margin-right: 20px; /* Espaçamento à direita da imagem */
-    border-radius: 20px; /* Adicionando borda arredondada */
+    max-width: 100%; /* Largura máxima da imagem */
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+    border-radius: 33px; /* Borda arredondada */
 }
 
-.item-cardapio-info {
-    flex: 1; /* Ocupa o espaço restante */
+.item-cardapio h3 {
+    margin-top: 20px; /* Espaçamento superior */
+    padding: 5px; /* Preenchimento */
 }
 
-.item-cardapio-info h3 {
-    margin-top: 0; /* Remove o espaço superior do título */
+.item-cardapio h4 {
+    margin-top: 0; /* Espaçamento superior */
+    margin-bottom: 5px; /* Espaçamento inferior */
 }
 
-.item-cardapio-info h4 {
-    display: flex;
-    margin-top: 0; /* Remove o espaço superior do título dos ingredientes */
-    margin-bottom: 5px; /* Espaçamento inferior entre o título dos ingredientes e a lista de ingredientes */
-}
-
-.item-cardapio-info p {
-    margin-top: 5px; /* Espaçamento entre o título e os ingredientes */
-    margin-bottom: 0; /* Remove o espaço inferior dos ingredientes */
+.item-cardapio p {
+    margin: 0; /* Remover margem */
 }
 
 /* Estilos para a seção de promoções */
 .promocoes {
-    background-color: #ffd700; /* Cor de fundo das promoções */
+    background-color: #ffd700; /* Cor de fundo */
     padding: 20px; /* Espaçamento interno */
-    font-family: Arial, sans-serif; /* Fonte para as promoções */
+    font-family: Arial, sans-serif; /* Fonte */
 }
 
 /* Estilos para o rodapé */
 footer {
-    background-color: #333; /* Cor de fundo do rodapé */
-    color: #fff; /* Cor do texto do rodapé */
+    background-color: #333; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
     padding: 20px; /* Espaçamento interno */
     text-align: center; /* Alinhamento do texto */
-    font-family: Arial, sans-serif; /* Fonte para o texto do rodapé */
+    font-family: Arial, sans-serif; /* Fonte */
 }
