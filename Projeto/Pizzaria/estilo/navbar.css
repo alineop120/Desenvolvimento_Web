@@ -1,20 +1,39 @@
 /* Estilo do cabeçalho */
 .cabecalho {
     background-image: url('/midia/bordaPizza.jpg');
-    height: 200px;
     background-size: cover;
     background-position: center;
     color: #fff;
     padding: 30px;
     text-align: center;
-    font-size: 24px; /* Tamanho da fonte para telas grandes */
+    height: 230px;
+
 }
 
-.cabecalho .logo{
-    position: static;   /* declarada como static */
+.cabecalho .navbar .logo {
     display: flex;
-    height: 200px;
-    width: 100px;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 150px; /* Ajuste a altura conforme necessário */
+    width: 150px; /* Ajuste a largura conforme necessário */
+    margin-top: 30px; /* Adiciona um espaço em branco acima da logo */
+    border-radius: 1000px; /* Transforma a logo em um círculo */
+    background-color: antiquewhite; /* Cor de fundo */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cabecalho .navbar .logo img {
+    height: 444px; /* Ajuste a altura conforme necessário */
+    width: 561px; /* Ajuste a largura conforme necessário */
+    max-width: 100%; /* Ajusta a largura máxima da imagem */
+    max-height: 100%; /* Ajusta a altura máxima da imagem */
+    display: block; /* Alterado de flex para block */
+    margin: auto; /* Centraliza horizontalmente */
 }
 
 /* Estilo do menu de navegação */
@@ -28,10 +47,14 @@
 /* Estilo dos itens do menu */
 .item-menu ul {
     list-style-type: none;
+    background-color: #3c1404;
+    font-size: 20px;
     margin: 0;
     padding: 10px;
     position: absolute;
-    right: 10px;
+    right: 0;
+    left: 0;
+    top: 200px; /* Posiciona o menu abaixo do cabeçalho */
 }
 
 .item-menu ul li {
@@ -46,11 +69,6 @@
 .item-menu ul li a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
-    border-radius: 10px;
-    border: 2px solid aliceblue; /* Adiciona uma borda sólida */
-    padding: 8px 12px; /* Adiciona espaçamento interno */
-
 }
 
 .item-menu ul li a:hover {
