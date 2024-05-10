@@ -1,20 +1,62 @@
-/* Estilo da Página Proncipal - Home */
+/* Estilo da Página Principal - Home */
 body {
     background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* Tamanho da fonte padrão */
+}
+
+/* Estilo do cabeçalho */
+.cabecalho {
+    background-image: url('/midia/bordaPizza.jpg');
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-size: 24px; /* Tamanho da fonte para telas grandes */
 }
 
 /* Estilo do bloco do Aviso */
 .aviso-block {
     background-color: #ebc18b;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 16px; /* Tamanho da fonte padrão */
 }
 
 /* Estilo do bloco do Menu */
+.menu-block {
+    background-color: #474a51;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 16px; /* Tamanho da fonte padrão */
+}
 
+.menu-block h2 {
+    color: white;
+    font-size: 20px; /* Tamanho da fonte para telas grandes */
+}
 
 /* Estilo do Rodapé */
 footer {
-    background-color: #3c1404; /* Cor de fundo */
-    color: #fff; /* Cor do texto */
-    padding: 15px; /* Espaçamento interno */
-    text-align: center; /* Alinhamento do texto */
+    background-color: #3c1404;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px; /* Tamanho da fonte padrão */
+}
+
+/* Media query para telas menores que 768px */
+@media only screen and (max-width: 768px) {
+    .cabecalho {
+        height: 100px; /* Reduzir altura em dispositivos menores */
+        padding: 10px; /* Reduzir o padding em dispositivos menores */
+        font-size: 20px; /* Tamanho da fonte para telas médias */
+    }
+
+    .menu-block h2 {
+        font-size: 16px; /* Tamanho da fonte para telas médias */
+    }
 }

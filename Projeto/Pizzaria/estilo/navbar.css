@@ -1,47 +1,33 @@
-/* Estilos para a navegação do menu */
-.cabecalho {
-    width: 696px; /* largura */
-	height: 20px; /* altura */
-    background-image: url('/midia/bordaPizza.jpg'); /* Imagem de fundo */
-    background-size: cover; /* Cobrir todo o cabeçalho */
-    background-position: left 59%; /* Posição da imagem */
-    color: #fff; /* Cor do texto */
-    padding: 38px; /* Espaçamento interno */
-}
-
-/* Estilo do Título - Logo */
-.titulo-cabecalho {
-    font-size: 23px; /* tamanho da fonte */
-    text-align: left;
-}
-
 .navbar {
-    background-color: #3c1404; /* Cor de fundo */
-    padding: 15px; /* Espaçamento interno */
-    text-align: center; /* Alinhamento do texto */
+    display: flex;
+    justify-content: space-between; /* Distribui espaço entre os elementos */
+    align-items: center; /* Alinha verticalmente */
+    padding: 15px;
 }
 
-.navbar ul {
-    list-style-type: none; /* Remover marcadores de lista */
-    margin: 0; /* Remover margem */
-    padding: 0; /* Remover preenchimento */
+.item-menu {
+    margin-left: auto; /* Move os itens do menu para a direita */
 }
 
-.navbar ul li {
-    display: inline; /* Exibir itens em linha */
-    margin-right: 20px; /* Margem à direita entre itens */
-    color: #fff; /* Cor do texto */
+.item-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.navbar ul li:last-child {
-    margin-right: 0; /* Remover margem à direita do último item */
+.item-menu ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-.navbar ul li a {
-    text-decoration: none; /* Remover decoração de link */
-    color: #fff; /* Cor do link */
+.item-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: aliceblue;
 }
 
-.navbar ul li a:hover {
-    color: #fd7709; /* Cor do link quando o mouse passa por cima */
+.item-menu ul li a:hover {
+    color: #fd7709;
 }
