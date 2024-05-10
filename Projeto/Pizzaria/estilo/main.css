@@ -6,18 +6,6 @@ body {
     font-size: 16px; /* Tamanho da fonte padrão */
 }
 
-/* Estilo do cabeçalho */
-.cabecalho {
-    background-image: url('/midia/bordaPizza.jpg');
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    padding: 30px;
-    text-align: center;
-    font-size: 24px; /* Tamanho da fonte para telas grandes */
-}
-
 /* Estilo do bloco do Aviso */
 .aviso-block {
     background-color: #ebc18b;

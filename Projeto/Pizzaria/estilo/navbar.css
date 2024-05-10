@@ -1,3 +1,23 @@
+/* Estilo do cabeçalho */
+.cabecalho {
+    background-image: url('/midia/bordaPizza.jpg');
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-size: 24px; /* Tamanho da fonte para telas grandes */
+}
+
+.cabecalho .logo{
+    position: static;   /* declarada como static */
+    display: flex;
+    height: 200px;
+    width: 100px;
+}
+
+/* Estilo do menu de navegação */
 .navbar {
     display: flex;
     justify-content: space-between; /* Distribui espaço entre os elementos */
@@ -5,14 +25,13 @@
     padding: 15px;
 }
 
-.item-menu {
-    margin-left: auto; /* Move os itens do menu para a direita */
-}
-
+/* Estilo dos itens do menu */
 .item-menu ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
 }
 
 .item-menu ul li {
@@ -20,14 +39,21 @@
     margin-right: 20px;
 }
 
+.item-menu ul li:last-child {
+    margin-right: 0; /* Remove a margem do último item do menu */
+}
+
 .item-menu ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
     border-radius: 10px;
-    border-color: aliceblue;
+    border: 2px solid aliceblue; /* Adiciona uma borda sólida */
+    padding: 8px 12px; /* Adiciona espaçamento interno */
+
 }
 
 .item-menu ul li a:hover {
     color: #fd7709;
+    background-color: rgba(255, 255, 255, 0.1); /* Adiciona um fundo ao passar o mouse */
 }
