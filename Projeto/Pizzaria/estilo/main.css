@@ -1,0 +1,20 @@
+/* Estilo da Página Proncipal - Home */
+body {
+    background-color: antiquewhite;
+}
+
+/* Estilo do bloco do Aviso */
+.aviso-block {
+    background-color: #ebc18b;
+}
+
+/* Estilo do bloco do Menu */
+
+
+/* Estilo do Rodapé */
+footer {
+    background-color: #3c1404; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 15px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+}
