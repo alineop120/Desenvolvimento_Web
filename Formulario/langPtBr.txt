@@ -1,0 +1,6 @@
+Nas configurações:
+* Pesquisa: snipp
+* Emmet(3) // canto esquerdo a baixo na pesquisa
+* Emmet: Variables //variaveis a serem usadas em snippets do Emmet
+* Adiciona um item //o item a ser adicionado primeiro é da linguagem
+* Coloca no campo valor a linguagem: pt-br

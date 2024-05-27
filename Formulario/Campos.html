@@ -6,8 +6,64 @@
     <title>Campos</title>
 </head>
 <body>
-    <form action="" method="get">
-        
+    <form>
+         <!-- Campo do nome -->
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" id="inome" name="nome" required autofocus autocomplete="off" maxlength="10" minlength="3" placeholder="Digite o nome" pattern="[a-zA=Z]+" title="Nome do Usuário"
+            size="50">
+        </p>
+         <!-- Campo da idade -->
+        <p>
+            <label for="iidade">Idade: </label>
+            <input type="number" id="iidade" name="idade" min="0" max="50" step="10">
+        </p>
+         <!-- Campo do e-mail -->
+         <p>
+            <label for="iemail">E-mail: </label>
+            <input type="email" id="iemail" name="email">
+        </p>
+         <!-- Campo da senha -->
+         <p>
+            <label for="isenha">Senha: </label>
+            <input type="password" id="isenha" name="senha">
+        </p>
+        <!-- Campos de CheckBox -->
+        <p>
+            <label for="icheckbox">CheckBox </label>
+            <input type="checkbox" id="icheckbox" name="checkbox">
+        </p>
+        <!-- Campos de Botão Radio 
+                name igual e id diferentes-->
+        <p>
+            <label for="icheckbox">Botão Radio</label>
+            <input type="radio" id="radio1" name="radio">
+            <input type="radio" id="radio2" name="radio" checked>
+            <input type="radio" id="radio3" name="radio" checked>
+        </p>
+        <!-- Campos de Seleção -->
+        <p>
+            <label for="iselect">Seleção</label>
+            <select name="iselect" id="select">
+                <option value="opcao1">Opção 1</option>
+                <option value="opcao2">Opção 2</option>
+                <option value="opcao3">Opção 3</option>
+            </select>
+        </p>
+        <!-- Campos de Data -->
+        <p>
+            <label for="idata">Data</label>
+            <input type="data" id="idata" name="data" min="2024-01-01" max="2024-05-27">
+        </p>
+        <!-- Campos de Texto -->
+        <p>
+            <label for="itexto">Campo texto</label>
+            <textarea name="texto" id="itexto" rows="15" cols="30"></textarea>
+        </p>
+        <!-- Campo de Enviar -->
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
     </form>    
 </body>
 </html>
