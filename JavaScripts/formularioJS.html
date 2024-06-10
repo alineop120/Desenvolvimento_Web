@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com JS</title>
+</head>
+<body>
+	<form onsubmit="enviar()">
+		<p>
+			<label for="inome">Nome: </label>
+			<input type="text" name="nome" id="inome">
+		</p>
+		<p>
+			<input type="submit" value="Enviar">
+		</p>
+	</form>
+	<script>
+		function enviar(){
+			let nome = document.getElementById("inome").value
+			if (nome == "Dev"){
+				alert("Sucesso!")
+			} else {
+				alert("Informação errada!")
+			}
+			
+			alert(nome)
+		}
+		 
+	</script>
+</body>
+</html>
